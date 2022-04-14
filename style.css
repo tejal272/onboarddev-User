@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ver-line{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+    width: 1080px;
+    position: relative;
+    top: 560px;
+    margin-left: 159px;
+}
+
+.container .day{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.12em;
+    position: absolute;
+    width: 38px;
+    height: 22px;
+    left: 90px;
+    top: 40px;
+    
+}
+
+.container .month{
+   font-family: Roboto; 
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 22px;
+   letter-spacing: 0em;
+   text-align: left;
+   color:  rgba(0, 0, 0, 0.3);
+   position: absolute;
+   width: 38px;
+   height: 22px;
+   left: 100px;
+   margin-top: 2px;
+   top: 58px;
+   padding: 2px;
+}
+
+div.date{
+    border: 1px solid transparent;
+    width: 20px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 6px;
+    background: #3FB883;
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    size: 15px;
+    line-height: 22px;
+    position: absolute;
+    width: 18px;
+    height: 22px;
+    left: 129px;
+    top: 30px;
+    margin: 12px;
+}
+
+.container .hor-line{
+    position: relative;
+    margin-top: 89px;
+    margin-left: 160px;
+    width: 0.5px;
+    height: 1000px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.container .time{
+    position: absolute;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    top: 120px;
+    margin-left: 81px;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.user-account{
+    position: absolute;
+    top: 116px;
+    left: 145px;
+    font-family: 'Roboto',sans-serif;
+    color: rgba(63, 184, 131, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.user-account .material-icons{
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 5px;
+    background: rgba(83, 144, 235, 1);
+    color: #fff;
+}
+
+.user-account img{
+    position: absolute;
+    top: 30px;
+    left: 32px;
+    height: 20px;
+    width: 20px;
+}
+
+.user-account .text{
+    position: absolute;
+    left: 59px;
+    top: 30px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.box .time{
+    position: absolute;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    top: 199px;
+    margin-left: 81px;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.user-comment{
+    font-family: 'Roboto',sans-serif;
+    color: rgba(63, 184, 131, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.box img{
+    position: absolute;
+    top: 199px;
+    left: 145px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 5px;
+    background: rgba(220, 57, 95, 1);
+    color: #fff;
+}
+
+.user-comment .text{
+    position: absolute;
+    top: 199px;
+    left: 175px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.user-comment .user{
+    position: absolute;
+    top: 19px;
+    left: 0.2px;
+    height: 20px;
+    width: 20px;
+}
+
+.user-comment .name{
+    position: absolute;
+    left: 31px;
+    top: 23px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.time .tim{
+    position: absolute;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    top: 290px;
+    margin-left: 81px;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.time .fa-check{
+    position: absolute;
+    top: 290px;
+    left: 150px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 5px;
+    background: rgba(63, 184, 131, 1);
+    color: #fff;
+}
+
+.time .text{
+    position: absolute;
+    top: 293px;
+    left: 179px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px; 
+}
+
+.time .name{
+    position: absolute;
+    left: 30px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.time img{
+    position: absolute;
+    top: 25px;
+    left: 4px;
+}
+
+.browser .ti1{
+    position: absolute;
+    top: 390px;
+    margin-left: 81px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.browser .material-icons{
+    position: absolute;
+    top: 390px;
+    left: 150px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 5px;
+    background: rgba(251, 135, 137, 1);
+    color: #fff;
+}
+
+.browser .text{
+    position: absolute;
+    top: 392px;
+    left: 180px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px; 
+}
+
+.browser .name{
+    position: absolute;
+    left: 30px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.browser img{
+    position: absolute;
+    left: 5px;
+    top: 25px;
+}
+
+.follow-up .ti2{
+    position: absolute;
+    top: 480px;
+    margin-left: 81px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.follow-up img{
+    position: absolute;
+    top: 475px;
+    left: 145px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: rgb(13, 68, 216);
+    filter: invert(1);
+    padding: 5px;
+}
+
+.follow-up .text{
+    position: absolute;
+    top: 480px;
+    left: 180px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px; 
+}
+
+.follow-up .name{
+    position: absolute;
+    left: 32px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.follow-up .photo{
+    position: absolute;
+    left: 2px;
+    top: 17px;
+    background: none;
+    filter: none;
+    border: none;
+}
+
+.containet .day{
+    position: absolute;
+    top: 600px;
+    left: 90px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.12em;
+} 
+
+.containet .month{
+   font-family: Roboto; 
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 22px;
+   letter-spacing: 0em;
+   text-align: left;
+   color:  rgba(0, 0, 0, 0.3);
+   position: absolute;
+   width: 38px;
+   height: 22px;
+   left: 100px;
+   margin-top: 2px;
+   top: 620px;
+   padding: 2px;
+}
+
+.containet .date{
+    border: 1px solid transparent;
+    width: 20px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 6px;
+    background: rgba(174, 175, 178, 1);
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    size: 15px;
+    line-height: 22px;
+    position: absolute;
+    width: 18px;
+    height: 22px;
+    left: 129px;
+    top: 590px;
+    margin: 12px;
+}
+
+.meeting .ti3{
+    position: absolute;
+    top: 683px;
+    margin-left: 81px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.meeting img{
+    position: absolute;
+    top: 680px;
+    left: 145px;
+    border: 0.25px solid #3FB883;
+    border-radius: 50%;
+    padding: 5px;
+    background: #FFFFFF;
+}
+
+.meeting .text{
+    position: absolute;
+    top: 683px;
+    left: 180px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px; 
+}
+
+.meeting .name{
+    position: relative;
+    left: 30px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.meeting .photo{
+    position: absolute;
+    top: 20px;
+    left: 1px;
+    background: none;
+    filter: none;
+    border: none;
+}
+
+.design .ti4{
+    position: absolute;
+    top: 759px;
+    margin-left: 81px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.design .chat{
+    position: absolute;
+    top: 756px;
+    left: 145px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 3.5px;
+    background: rgba(162, 89, 255, 1);
+    color: #fff;
+}
+
+.design .text{
+    position: absolute;
+    top: 759px;
+    left: 180px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px; 
+}
+
+.design .photo{
+    position: absolute;
+    top: 23px;
+    left: 1px;
+    
+}
+
+.design .name{
+    position: relative;
+    left: 32px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.critical .ti5{
+    position: absolute;
+    top: 855px;
+    margin-left: 81px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.critical img{
+    position: absolute;
+    top: 852px;
+    left: 149px;
+    border: 0.25px solid transparent;
+    border-radius: 50%;
+    padding: 2px;
+    background: rgb(22, 189, 202);
+    filter: invert(1);
+}
+
+.critical .text{
+    position: absolute;
+    top: 855px;
+    left: 180px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px; 
+}
+
+.critical .name{
+    position: relative;
+    left: 32px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.critical .photo{
+    position: absolute;
+    top: 20px;
+    left: 1px;
+    background: none;
+    filter: none;
+    border: none;
+}
+
+.project .ti6{
+    position: absolute;
+    top: 955px;
+    margin-left: 81px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.project img{
+    position: absolute;
+    top: 955px;
+    left: 148px;
+    border: 0.25px solid transparent;
+    border-radius: 50%;
+    padding: 4px;
+    background: rgb(13, 32, 200);
+    filter: invert(1);
+}
+
+.project .text{
+    position: absolute;
+    top: 955px;
+    left: 185px;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px; 
+}
+
+.project .photo{
+    position: absolute;
+    top: 20px;
+    left: 1px;
+    background: none;
+    filter: none;
+    border: none;
+}
+.project .name{
+    position: relative;
+    left: 32px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+
+/* media Queries */
+
+@media screen and (max-width: 600px) {
+
+    .user-account,
+    .text,
+    .container .time,
+    .user-account .text,
+    .user-comment .text,
+    .time .text,
+    .browser .text,
+    .meeting .text,
+    .design .text,
+    .critical .text
+    {
+        font-size: 13px;
+    }
+
+    .follow-up .text,
+    .project .text{
+        font-size: 12px;
+    }
+
+    .follow-up .name{
+        top: 41px;
+    }
+
+    .follow-up .photo{
+        top: 36px;
+    }
+
+    .schedule{
+        position: relative;
+        margin: auto;
+    }
+
+    .ver-line{
+        width: 310px;
+    }
+    
+}
